@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    justify-content: center;
+    &__tablerow{
+        color: red;
+    }
+    &__reset{
+        margin-left: 20px;
+    }
+}
+
+table td {
+    border: 1px solid skyblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
